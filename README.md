@@ -55,3 +55,9 @@ DataTrust/
 
 ### Important limitations
 This is an educational portfolio prototype, not a certified governance or regulatory-compliance product. The included data is synthetic. Quality rules are illustrative and should be adapted with data owners and domain experts. Anomaly flags are statistical review signals, not proof of errors or misconduct. PSI thresholds are heuristic. Do not use the score as a substitute for legal, privacy, security or regulatory assessment.
+
+## Author
+
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
