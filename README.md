@@ -50,6 +50,13 @@ DataTrust/
 ## Important limitations
 This is an educational portfolio prototype, not a certified governance or regulatory-compliance product. The included data is synthetic. Quality rules are illustrative and should be adapted with data owners and domain experts. Anomaly flags are statistical review signals, not proof of errors or misconduct. PSI thresholds are heuristic. Do not use the score as a substitute for legal, privacy, security or regulatory assessment.
 
+## **Responsible Use**
+
+- Use this project strictly for educational, research, and portfolio purposes.
+- Ensure datasets are legally obtained and comply with data privacy requirements.
+- Protect sensitive information and never expose confidential or personal data.
+- Treat AI predictions as decision-support insights, not guaranteed outcomes.
+- Validate model performance, monitor potential bias, and maintain human oversight before real-world application.
 ## Author
 
 **Mohamed Riyaz S.**  
