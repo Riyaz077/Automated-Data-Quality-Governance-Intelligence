@@ -3,7 +3,7 @@
 
 DataTrust is an end-to-end data observability and governance portfolio project. It profiles business datasets, evaluates configurable quality rules, detects unusual records, compares current data with a reference baseline, and produces a governance-oriented quality scorecard.
 
-### Core capabilities
+## Core capabilities
 - Automated dataset profiling: completeness, uniqueness, validity, numeric summaries and categorical distributions.
 - Configurable quality rules for required fields, duplicates, numeric ranges and allowed categories.
 - Row-level anomaly detection using Isolation Forest.
@@ -12,21 +12,15 @@ DataTrust is an end-to-end data observability and governance portfolio project. 
 - Streamlit dashboard and FastAPI endpoints.
 - Synthetic business dataset, notebook, documentation and tests.
 
-### Quick start
-Python 3.10+ recommended.
+## **Quick Start**
 
-```bash
-pip install -r requirements.txt
-python scripts/generate_data.py
-streamlit run app/streamlit_app.py
-```
+- Ensure Python 3.10 or later is installed.
+- Install all required dependencies from `requirements.txt`.
+- Generate the sample dataset using the data generation script.
+- Launch the interactive Streamlit dashboard for analytics and visualization.
+- Start the FastAPI backend in a separate terminal for API-based access.
 
-Run the API in another terminal:
-```bash
-uvicorn api.main:app --reload
-```
-
-### Use your own data
+## Use your own data
 Upload a CSV in the dashboard. The demo rule configuration expects:
 - `record_id` — unique record key
 - `customer_id` — customer identifier
@@ -38,7 +32,7 @@ Upload a CSV in the dashboard. The demo rule configuration expects:
 
 The profiling and anomaly functions can also be adapted to other schemas.
 
-### Project structure
+## Project structure
 ```text
 DataTrust/
 ├── api/              # FastAPI endpoints
@@ -53,7 +47,7 @@ DataTrust/
 └── README.md
 ```
 
-### Important limitations
+## Important limitations
 This is an educational portfolio prototype, not a certified governance or regulatory-compliance product. The included data is synthetic. Quality rules are illustrative and should be adapted with data owners and domain experts. Anomaly flags are statistical review signals, not proof of errors or misconduct. PSI thresholds are heuristic. Do not use the score as a substitute for legal, privacy, security or regulatory assessment.
 
 ## Author
